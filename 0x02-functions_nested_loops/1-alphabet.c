@@ -1,17 +1,17 @@
 #include "main.h"
 
 /**
- *  print_putchar - a function that prints the alphabet, in lowercase
+ * print_alphabet - Prints the alphabet in lowercase
  *
- *  Return: Always 0 (Succes)
+ * Return: Always 0 (Succes)
  */
-void print_putchar(void)
+void print_alphabet(void)
 {
-	int n;
+	char alpha;
 
-	for (n = 'a'; n <= 'z'; n++)
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
-		_putchar(n);
+		_putchar(alpha);
 	}
 	_putchar('\n');
 }
