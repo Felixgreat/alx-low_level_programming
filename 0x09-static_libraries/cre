@@ -1,0 +1,4 @@
+#!/bin/bash
+gcc -c *.c
+ar rc libmy.a, main.h *.o
+ranlib libmy.a
