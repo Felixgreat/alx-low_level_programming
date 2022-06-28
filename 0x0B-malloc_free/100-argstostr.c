@@ -38,7 +38,7 @@ char *argstostr(int ac, char **av)
 
 		str[index++] = '\n';
 	}
-	
+
 	str[size] = '\0';
 
 	return (str);
